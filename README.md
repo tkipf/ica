@@ -2,7 +2,7 @@
 
 This is a python/sklearn implementation of the Iterative Classification Algorithm from:
 
-Qing Lu, Lise Getoor, [Link-based classification](http://linqs.cs.umd.edu/projects/projects/lbc/) (ICML 2016)
+Qing Lu, Lise Getoor, [Link-based classification](http://linqs.cs.umd.edu/projects/projects/lbc/) (ICML 2003)
 
 which served as a semi-supervised classification baseline in our recent paper:
 
