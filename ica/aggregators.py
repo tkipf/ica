@@ -27,7 +27,7 @@ class Count(Aggregator):
 
 class Prop(Aggregator):
     def aggregate(self, graph, node, conditional_node_to_label_map):
-        cntag = CountAggregator(self.domain_labels)
+        cntag = Count(self.domain_labels)
         cnt_agg = cntag.aggregate(graph, node, conditional_node_to_label_map)
         total_sum = sum(cnt_agg)
         if total_sum > 0:
